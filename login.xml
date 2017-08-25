@@ -1,0 +1,8 @@
+<root>
+    <role>  
+        <administrator>Administrator</administrator>                                  
+    </role>
+    <passwords>
+        <administrator>Pass</administrator>        
+    </passwords>
+</root>

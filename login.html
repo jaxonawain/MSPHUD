@@ -1,0 +1,38 @@
+<!doctype HTML5>
+<html>
+    <head> 
+        <title>Decypher HUD | Login</title>
+        <link rel="stylesheet" type="text/css" href="login.css" />
+    </head>
+    <body>
+        <p class="header">
+            Decypher Technologies 
+        </p>	
+        <div id="body">
+            
+            <form id="login" action="login.php" method="post">
+                <p class="rowtext">
+                    Username:
+                    <input type="text" placeholder="Enter Username" name="uname" class="textboxes" required>
+                </p>
+                <p class="rowtext">Password:                  
+                    <input type="text" placeholder="Enter Password" name="psd" class="textboxes" required> 
+                    <input type="submit">
+                    
+                    
+                </p> 
+                <p class="rememberme">
+                    <input type="checkbox" checked="checked">
+                    Remember me 
+                </p>
+            </form>
+            <script src="login.js"></script>
+        </div>        
+    </body>
+</html>
+
+
+
+
+
+<button type="button" class="textboxes" onclick="check(this.form)" value="login">Login</button>
